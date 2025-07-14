@@ -6,9 +6,4 @@ resource "azurerm_resource_group" "pikka" {
 resource "azurerm_resource_group" "Ash" {
   name     = "Ash"
   location = "West Europe"
-}
-
-resource "azurerm_resource_group" "Misty" {
-  name     = "Misty"
-  location = "West Europe"
-}
+)
