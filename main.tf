@@ -12,3 +12,10 @@ resource "azurerm_resource_group" "Tension" {
   name     = "Tension"
   location = "West Europe"
 }
+
+# Test case . . . . 
+
+resource "azurerm_resource_group" "Country" {
+  name     = "Zing"
+  location = "Central India"
+}
