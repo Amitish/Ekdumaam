@@ -19,3 +19,8 @@ resource "azurerm_resource_group" "Country" {
   name     = "Zing"
   location = "Central India"
 }
+
+resource "azurerm_resource_group" "tree" {
+  name     = "Banyan"
+  location = "East US"
+}
